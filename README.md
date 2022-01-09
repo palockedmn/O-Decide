@@ -9,7 +9,11 @@ A simple and useless program to decide whether or not you're allowed to orgasm. 
 
 #### *v1.1.0* - (January 9, 2022)
 - First Update
-  - Updated Settings page to match the theme of the program and provide better visibility and usability
   - Fixed a bug that made it possible to set 0% odds and never be released
   - Added taskbar flash when app minimized and ready to try again
-  - Minor visual fixes
+  - Several Visual fixes
+    - Fixed a problem that allowed users to maximize the main window, but everything on the page stayed the same size. Temporarily solved by disabling maximize. Might look at other fixes some other time. Focusing on core functionality first.
+    - Resized and recentered the main window text and added author info under the main title
+    - Updated Settings page to match the theme of the program and provide better visibility and usability
+  - Fixed a persistance issue with settings
+  - Added a mechanism to reset the session by right clicking the Decide button
