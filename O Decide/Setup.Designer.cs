@@ -286,6 +286,8 @@ namespace O_Decide
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Setup";
             this.Text = "Setup";
             ((System.ComponentModel.ISupportInitialize)(this.ts_Odds)).EndInit();
