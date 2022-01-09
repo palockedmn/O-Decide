@@ -80,5 +80,10 @@ namespace O_Decide
         {
             //OddsTextUpdate(); //Not needed
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            //Not Needed
+        }
     }
 }
